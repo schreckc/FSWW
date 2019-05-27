@@ -1,16 +1,35 @@
+/* 
+ * File: setting.hpp
+ *
+ * Copyright (C) 2019  Camille Schreck
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 #ifndef SETTINGS_HPP
 #define SETTINGS_HPP
 
-#define INTERACTIVE_
-#define USE_CUDA
-#define PROJECTED_GRID // Note: only implemented with the cuda version
+//#define INTERACTIVE_
+//#define USE_CUDA
+//#define PROJECTED_GRID // Note: only implemented with the cuda version
 //#define PLOT_RESULT //Note: only for one frequency at the time, without projective grid
 
 #include "definitions.hpp"
 #include <vector>
 #include <string>
 
-#define NTHREADS_ 2
+#define NTHREADS_ 7
 
 namespace settings {
 

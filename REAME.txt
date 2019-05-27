@@ -7,6 +7,7 @@ cd ./build/Release/
 make
 cd ../..
 
+<optional> The sources contain a cuda implementation of part of this program. To use it you need to install cuda and make sure the macro USE_CUDA is defined before compiling.
 
 RUN:
 ./build/Release/src/wawa <options>
@@ -17,7 +18,7 @@ Options:
      -stop <t>: stop animation and exit at time t
      -em <name>: export heightfields and render files in a set of files <name><frame number>.ong and <name><frame number>.xml
      -es, -export_step <n>: export every n frames
-     -h, -help: print help
+     -h, -help: print help				
 
 
 OPTION:
