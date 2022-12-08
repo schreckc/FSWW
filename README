@@ -1,3 +1,20 @@
+Fundemental Solutions For Water Wave Animation
+------------------------------------------------------------------------------
+
+This code implements a version the method described in
+
+    "Fundemental Solutions For Water Wave Animation"
+    by Camille Schreck, Christian Hafner and Chris Wojtan
+    published in ACM Transactions on Graphics (SIGGRAPH 2019)
+
+This version uses Magnum Engine as viewer. 
+Another version is available here (https://github.com/schreckc/FSWW_qglviewer) using QglViewer instead (easier compilation).
+
+This code is not particularly well-tested or optimized, but it can be used to
+reproduce (at least some) of the examples in the paper.
+
+
+
 INSTALL:
 sudo apt-get install cmake git gcc python3 pip3 eigen libsdl2-dev
 sudo pip3 cget
